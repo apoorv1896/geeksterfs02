@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h1>forms tutorial</h1>
+    <form
+      action="https://www.netflix.com/in/"
+      target="_blank"
+      autocomplete="on"
+      name="videogame"
+    >
+      <label for="">Full Name =</label> <input type="text" /> <br /><br />
+      <label for="">Job =</label> <input type="text" /> <br /><br />
+      <label for="">date of birth</label>
+      <input type="date" />
+      <br />
+      <label for="email">email =</label>
+      <input type="email" />
+      <label for="">password =</label> <input type="password" />
+      <br />
+      <p>Enter game</p>
+      <label for="">God Of war</label>
+      <input name="Your Game" type="radio" />
+      <br />
+      <label for="">Arkhan Knight</label>
+      <input name="Your Game" type="radio" />
+      <br />
+      <label for="">Gta5</label>
+      <input name="Your Game" type="radio" />
+      <label for="name">Name</label>
+      <br />
+      <input type="submit" value="Get it done" />
+    </form>
+    <fieldset>
+    <legend>Personal info *</legend>
+    <h2>Choose hero</h2>
+    <form action="">
+      <ul>
+        <li><input type="checkbox" name="hero" value="Batman" />Batman</li>
+        <li><input type="checkbox" name="hero" value="Ironman" />Ironman</li>
+        <li><input type="checkbox" name="hero" value="Thor" />Thor</li>
+      </ul>
+      <textarea name="" id="" cols="15" rows="10"></textarea>
+      <button type="submit" onclick="alert('i am done')">Subscribed!!!</button>
+      <br />
+      <label for="course">Chooose course = </label>
+      <select name="course">
+        <option value="mtech">Mtech</option>
+        <option value="mdes">Mdes</option>
+        <option value="phd">Phd</option>
+        <option value="ms">MS</option>
+      </select>
+    </fieldset>
+    </form>
+  </body>
+</html>
